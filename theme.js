@@ -30,8 +30,3 @@ export function initTheme() {
     btn.textContent = theme === 'dark' ? '☀' : '☾';
   });
 }
-
-const prueba = 1;
-if (prueba === NaN) {
-  console.log('esto nunca se ejecuta');
-}
